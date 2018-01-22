@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2024
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BRGUtility", "BRGUtility\BRGUtility.csproj", "{5B7D8F57-8821-44AF-96FD-C0D75B560B91}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BRGUtility", "BRGUtility\BRGUtility.csproj", "{B3392A53-C37C-427C-AABC-FC1EA307CCBB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{5B7D8F57-8821-44AF-96FD-C0D75B560B91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5B7D8F57-8821-44AF-96FD-C0D75B560B91}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5B7D8F57-8821-44AF-96FD-C0D75B560B91}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5B7D8F57-8821-44AF-96FD-C0D75B560B91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3392A53-C37C-427C-AABC-FC1EA307CCBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3392A53-C37C-427C-AABC-FC1EA307CCBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3392A53-C37C-427C-AABC-FC1EA307CCBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3392A53-C37C-427C-AABC-FC1EA307CCBB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {8ADBF744-EA04-445E-A7E4-791707CC320E}
+		SolutionGuid = {78641454-A651-4463-9941-3863474582B4}
 	EndGlobalSection
 EndGlobal
