@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Ivan Fantini</Authors>
+    <Company>BRG Communication</Company>
+    <Product>BRG Utilities</Product>
+    <Description>Raccolta di utility necessari per tutti i progetti aziendali</Description>
+    <Copyright>BRG Communication</Copyright>
+  </PropertyGroup>
+
+</Project>
