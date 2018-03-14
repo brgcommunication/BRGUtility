@@ -330,17 +330,19 @@ namespace BRGUtility.BRGConsole
                 indentPrefix = String.Empty;
                 indentLevel = 0;
 
-                var jlst = jobLocalStartTime ?? consoleCreated;
-                var jlet = jobLocalEndTime ?? DateTime.Now;
-
                 sb.Append(ClosePreBlock(lastCharWasNewLine));
-                sb.AppendLine(String.Empty.PadRight(80, '-'));
-                sb.AppendLine(String.Format("[EXECUTION FINISHED AT {0} UTC+00:00]\r\n[EXECUTION FINISHED AT {1} (SERVER-TIME)]\r\n[EXECUTION TIME {2}]",
-                    jlet.ToUniversalTime().ToString("yyyy-MM-dd HH:mm:ss"),
-                    jlet.ToString("yyyy-MM-dd HH:mm:ss UTCK"),
-                    (jlet - jlst).ToString("h'h:'m'm:'s's'")
-                  ).ToUpper());
             }
+
+            var jlst = jobLocalStartTime ?? consoleCreated;
+            var jlet = jobLocalEndTime ?? DateTime.Now;
+
+            sb.AppendLine(String.Empty.PadRight(80, '-'));
+            sb.AppendLine(String.Format("[EXECUTION FINISHED AT {0} UTC+00:00]\r\n[EXECUTION FINISHED AT {1} (SERVER-TIME)]\r\n[EXECUTION TIME {2}]",
+                jlet.ToUniversalTime().ToString("yyyy-MM-dd HH:mm:ss"),
+                jlet.ToString("yyyy-MM-dd HH:mm:ss UTCK"),
+                (jlet - jlst).ToString("h'h:'m'm:'s's'")
+              ).ToUpper());
+
             return WriteLine(sb.ToString());
         }
 
