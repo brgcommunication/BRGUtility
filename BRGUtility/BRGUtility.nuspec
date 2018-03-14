@@ -2,9 +2,9 @@
 <package >
   <metadata>
     <id>BRG.Utility.BRGUtility</id>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
     <title>BRG Utility</title>
-    <authors>Ivan Fantini</authors>
+    <authors>Ivan F.</authors>
     <owners>BRG Communication</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Raccolta di utility necessari per tutti i progetti aziendali</description>
